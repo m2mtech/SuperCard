@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BCBFAF216D279F00070C1B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCBFAF116D279F00070C1B8 /* UIKit.framework */; };
+		5BCBFAF416D279F00070C1B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCBFAF316D279F00070C1B8 /* Foundation.framework */; };
+		5BCBFAF616D279F00070C1B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCBFAF516D279F00070C1B8 /* CoreGraphics.framework */; };
+		5BCBFAFC16D279F00070C1B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBFAFA16D279F00070C1B8 /* InfoPlist.strings */; };
+		5BCBFAFE16D279F00070C1B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCBFAFD16D279F00070C1B8 /* main.m */; };
+		5BCBFB0216D279F00070C1B8 /* SuperCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCBFB0116D279F00070C1B8 /* SuperCardAppDelegate.m */; };
+		5BCBFB0416D279F00070C1B8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBFB0316D279F00070C1B8 /* Default.png */; };
+		5BCBFB0616D279F00070C1B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBFB0516D279F00070C1B8 /* Default@2x.png */; };
+		5BCBFB0816D279F00070C1B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBFB0716D279F00070C1B8 /* Default-568h@2x.png */; };
+		5BCBFB0B16D279F00070C1B8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBFB0916D279F00070C1B8 /* MainStoryboard.storyboard */; };
+		5BCBFB0E16D279F00070C1B8 /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCBFB0D16D279F00070C1B8 /* SuperCardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BCBFAEE16D279F00070C1B8 /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCBFAF116D279F00070C1B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BCBFAF316D279F00070C1B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BCBFAF516D279F00070C1B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BCBFAF916D279F00070C1B8 /* SuperCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCard-Info.plist"; sourceTree = "<group>"; };
+		5BCBFAFB16D279F00070C1B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BCBFAFD16D279F00070C1B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BCBFAFF16D279F00070C1B8 /* SuperCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperCard-Prefix.pch"; sourceTree = "<group>"; };
+		5BCBFB0016D279F00070C1B8 /* SuperCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardAppDelegate.h; sourceTree = "<group>"; };
+		5BCBFB0116D279F00070C1B8 /* SuperCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardAppDelegate.m; sourceTree = "<group>"; };
+		5BCBFB0316D279F00070C1B8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BCBFB0516D279F00070C1B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5BCBFB0716D279F00070C1B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BCBFB0A16D279F00070C1B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5BCBFB0C16D279F00070C1B8 /* SuperCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardViewController.h; sourceTree = "<group>"; };
+		5BCBFB0D16D279F00070C1B8 /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCBFAEB16D279F00070C1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCBFAF216D279F00070C1B8 /* UIKit.framework in Frameworks */,
+				5BCBFAF416D279F00070C1B8 /* Foundation.framework in Frameworks */,
+				5BCBFAF616D279F00070C1B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCBFAE516D279F00070C1B8 = {
+			isa = PBXGroup;
+			children = (
+				5BCBFAF716D279F00070C1B8 /* SuperCard */,
+				5BCBFAF016D279F00070C1B8 /* Frameworks */,
+				5BCBFAEF16D279F00070C1B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BCBFAEF16D279F00070C1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCBFAEE16D279F00070C1B8 /* SuperCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCBFAF016D279F00070C1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BCBFAF116D279F00070C1B8 /* UIKit.framework */,
+				5BCBFAF316D279F00070C1B8 /* Foundation.framework */,
+				5BCBFAF516D279F00070C1B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BCBFAF716D279F00070C1B8 /* SuperCard */ = {
+			isa = PBXGroup;
+			children = (
+				5BCBFB0016D279F00070C1B8 /* SuperCardAppDelegate.h */,
+				5BCBFB0116D279F00070C1B8 /* SuperCardAppDelegate.m */,
+				5BCBFB0916D279F00070C1B8 /* MainStoryboard.storyboard */,
+				5BCBFB0C16D279F00070C1B8 /* SuperCardViewController.h */,
+				5BCBFB0D16D279F00070C1B8 /* SuperCardViewController.m */,
+				5BCBFAF816D279F00070C1B8 /* Supporting Files */,
+			);
+			path = SuperCard;
+			sourceTree = "<group>";
+		};
+		5BCBFAF816D279F00070C1B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCBFAF916D279F00070C1B8 /* SuperCard-Info.plist */,
+				5BCBFAFA16D279F00070C1B8 /* InfoPlist.strings */,
+				5BCBFAFD16D279F00070C1B8 /* main.m */,
+				5BCBFAFF16D279F00070C1B8 /* SuperCard-Prefix.pch */,
+				5BCBFB0316D279F00070C1B8 /* Default.png */,
+				5BCBFB0516D279F00070C1B8 /* Default@2x.png */,
+				5BCBFB0716D279F00070C1B8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCBFAED16D279F00070C1B8 /* SuperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCBFB1116D279F00070C1B8 /* Build configuration list for PBXNativeTarget "SuperCard" */;
+			buildPhases = (
+				5BCBFAEA16D279F00070C1B8 /* Sources */,
+				5BCBFAEB16D279F00070C1B8 /* Frameworks */,
+				5BCBFAEC16D279F00070C1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCard;
+			productName = SuperCard;
+			productReference = 5BCBFAEE16D279F00070C1B8 /* SuperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCBFAE616D279F00070C1B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SuperCard;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "m2m server software gmbh";
+			};
+			buildConfigurationList = 5BCBFAE916D279F00070C1B8 /* Build configuration list for PBXProject "SuperCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BCBFAE516D279F00070C1B8;
+			productRefGroup = 5BCBFAEF16D279F00070C1B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCBFAED16D279F00070C1B8 /* SuperCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCBFAEC16D279F00070C1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCBFAFC16D279F00070C1B8 /* InfoPlist.strings in Resources */,
+				5BCBFB0416D279F00070C1B8 /* Default.png in Resources */,
+				5BCBFB0616D279F00070C1B8 /* Default@2x.png in Resources */,
+				5BCBFB0816D279F00070C1B8 /* Default-568h@2x.png in Resources */,
+				5BCBFB0B16D279F00070C1B8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCBFAEA16D279F00070C1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCBFAFE16D279F00070C1B8 /* main.m in Sources */,
+				5BCBFB0216D279F00070C1B8 /* SuperCardAppDelegate.m in Sources */,
+				5BCBFB0E16D279F00070C1B8 /* SuperCardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BCBFAFA16D279F00070C1B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCBFAFB16D279F00070C1B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BCBFB0916D279F00070C1B8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCBFB0A16D279F00070C1B8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BCBFB0F16D279F00070C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BCBFB1016D279F00070C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCBFB1216D279F00070C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BCBFB1316D279F00070C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCBFAE916D279F00070C1B8 /* Build configuration list for PBXProject "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCBFB0F16D279F00070C1B8 /* Debug */,
+				5BCBFB1016D279F00070C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCBFB1116D279F00070C1B8 /* Build configuration list for PBXNativeTarget "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCBFB1216D279F00070C1B8 /* Debug */,
+				5BCBFB1316D279F00070C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCBFAE616D279F00070C1B8 /* Project object */;
+}
