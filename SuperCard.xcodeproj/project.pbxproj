@@ -86,6 +86,7 @@
 		5B967B3D16D3F65100A43254 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		5B967B3E16D3F65100A43254 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		5B967B3F16D3F65100A43254 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		5B967B4416D3FC7500A43254 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		5BCBFAEE16D279F00070C1B8 /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCBFAF116D279F00070C1B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BCBFAF316D279F00070C1B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -169,6 +170,7 @@
 		5BCBFAE516D279F00070C1B8 = {
 			isa = PBXGroup;
 			children = (
+				5B967B4416D3FC7500A43254 /* README */,
 				5BCBFAF716D279F00070C1B8 /* SuperCard */,
 				5BCBFAF016D279F00070C1B8 /* Frameworks */,
 				5BCBFAEF16D279F00070C1B8 /* Products */,
